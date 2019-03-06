@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+        "name": "[ZÉ DE ABREU 4 President]",
+        "description": "[Substitua o nome do atual presida pelo nome do real presida, Zé de Abreu]",
+        "version": "0.0.1",
+        "content_scripts": [
+            {
+          "matches": ["<all_urls>"],
+          "js": ["filter.js"]
+        }
+      ]
+    }
